@@ -101,21 +101,21 @@ export default function HomePage() {
 
               <div className="flex items-center space-x-8 pt-4">
                 <div className="text-center p-4 rounded-lg bg-white/10 dark:bg-gray-800/10 backdrop-blur-sm border border-white/20 dark:border-gray-700/20">
-                  <div className="text-2xl font-bold">
+                  <div className="text-2xl whitespace-nowrap font-bold">
                     <NumberTicker value={700} />
                     {"+"}
                   </div>
                   <div className="text-sm text-muted-foreground">Artists</div>
                 </div>
                 <div className="text-center p-4 rounded-lg bg-white/10 dark:bg-gray-800/10 backdrop-blur-sm border border-white/20 dark:border-gray-700/20">
-                  <div className="text-2xl font-bold">
+                  <div className="text-2xl whitespace-nowrap font-bold">
                     <NumberTicker value={1200} />
                     {"+"}
                   </div>
                   <div className="text-sm text-muted-foreground">Events</div>
                 </div>
                 <div className="text-center p-4 rounded-lg bg-white/10 dark:bg-gray-800/10 backdrop-blur-sm border border-white/20 dark:border-gray-700/20">
-                  <div className="text-2xl items-center font-bold">
+                  <div className="text-2xl whitespace-nowrap items-center font-bold">
                     <NumberTicker value={98} />
                     {"%"}
                   </div>
